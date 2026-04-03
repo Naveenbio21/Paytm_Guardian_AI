@@ -1,28 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GuardianAI_Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # 🛡️ Guardian AI: Intelligent Middleware for Resilient UPI
 
-Guardian AI is an advanced **Intelligent Middleware** solution positioned between the UPI switch and payment applications. It leverages machine learning and real-time behavioral biometrics to predict bank-side failures and prevent fraudulent transactions before they occur.
+[cite_start]Guardian AI is an advanced **Intelligent Middleware** solution positioned between the UPI switch and payment applications[cite: 13]. [cite_start]It leverages machine learning and real-time behavioral biometrics to predict bank-side failures and prevent fraudulent transactions before they occur[cite: 14, 15, 17].
 
 🔗 **Live Prototype:** [https://guardianai-71b78.web.app/](https://guardianai-71b78.web.app/)
 
-## 🚀 Key Features
+---
 
-* **Predictive Fail-Safe Routing:** ML-based analysis of bank API health to avoid congestion and route transactions through stable channels.
-* **Adaptive Behavioral Biometrics:** Real-time vishing protection that detects active calls and anomalous user behavior during payments.
-* **Automated Reconciliation:** High-speed detection and auto-reversal of "debited-not-credited" failures to ensure financial certainty.
-* **AI Coach & Voice Assistant:** Gemini-powered financial insights and hands-free, voice-activated payment processing.
+## 🚀 Project Status
+| Feature | Status | Description |
+| :--- | :--- | :--- |
+| **Predictive Routing** | ✅ Active | [cite_start]ML-based bank health analysis[cite: 16]. |
+| **Behavioral Biometrics** | ✅ Active | [cite_start]Active call detection (Vishing protection)[cite: 17]. |
+| **Auto-Reversal** | ✅ Active | [cite_start]Real-time monitoring and failure detection[cite: 19, 20]. |
+| **AI Insights** | ✅ Active | Gemini-powered financial coaching. |
+
+---
 
 ## 📐 System Workflow
 
+[cite_start]The Guardian AI engine processes transactions through a multi-layer verification stack[cite: 28]:
 
+1.  [cite_start]**Risk Assessment:** Evaluates bank API health and device security state (e.g., active call status)[cite: 16, 27].
+2.  [cite_start]**Smart Routing:** AI determines the most resilient path for transaction success[cite: 27].
+3.  [cite_start]**Secure Auth:** Fingerprint/Passkey verification replaces high-friction OTPs for a 12s faster checkout[cite: 18, 41].
+4.  [cite_start]**Real-Time Monitoring:** The reconciliation engine ensures the transaction is either successful or instantly reversed[cite: 35, 36].
 
-1.  **Risk Assessment:** The system evaluates bank API health and device security state (e.g., active call status).
-2.  **Smart Routing:** AI determines the most resilient path for transaction success.
-3.  **Secure Auth:** Fingerprint/Passkey verification replaces high-friction OTPs for a 12s faster checkout.
-4.  **Real-Time Monitoring:** The reconciliation engine ensures the transaction is either successful or instantly reversed.
 
 ## 💻 Local Development (VS Code)
 
@@ -54,7 +56,7 @@ Guardian AI is an advanced **Intelligent Middleware** solution positioned betwee
 
 ## 🌐 Deployment
 
-To push updates to the live Firebase URL:
+To push updates to your live Firebase URL:
 1.  **Build:** `npm run build`
 2.  **Deploy:** `firebase deploy`
 
