@@ -1,0 +1,5 @@
+{
+  "name": "Guardian AI – AI-powered Payments Assistant",
+  "description": "A modern fintech prototype inspired by Paytm, featuring AI-driven spending insights, fraud detection, and a voice-based payments assistant.",
+  "requestFramePermissions": ["microphone", "camera"]
+}
